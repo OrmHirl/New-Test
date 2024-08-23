@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sodalitas | Клуб</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="druckerei.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+    <div class="wrapper">
+        <templ-header></templ-header>
+        <main class="page">
+            <div class="page__screen">
+                <img src="img/bezel_text.png" id="bezel" class="noselect">
+                <div class="page__scanlines"></div>
+                <div class="page__bezel"></div>
+                <section class="page__section">
+                    <div class="page__section__body">
+                        <h1 class="page__title">Мир и Порядок!<br></h1>
+                        <div class="page__datapad">
+                            <div class="datapad__frame"><img src="img/rfs__datapad.png" alt="Datapad"></div>
+                            <div class="datapad__background"><img src="img/datapad_background.png" id="slider"></div>
+                        </div>
+                        <div class="datapad__menu">
+                            <ul><li><a href="#" onmouseenter="changeImg('img/histclub.png')">De Sodalitatis</a></li></li></ul>
+                            <ul><li><a href="#" onmouseenter="changeImg('img/admin.png')">Administratio</a></li></li></ul>
+                            <ul><li><a href="#" onmouseenter="changeImg('img/lex.png')">Lex</a></li></ul>
+                            <ul><li><a href="#" onmouseenter="changeImg('img/statistics.png')">Statisticum</a></li></ul>
+                            <ul><li><a href="#" onmouseenter="changeImg('img/notitia.png')">Notitia Dignitatum</a></li></ul>
+                        </div>
+                        <div class="page__text">
+                            <p><span></span></p>
+                            <p>Добро пожаловать в административный терминал Корианской Империи — Императорских Гвардейских Сил. Здесь собрана вся открытая информация, касающаяся истории нашего славного клуба и его героической борьбы, а равно и сведения о членах Администрации, клубном законодательстве и системе клубных чинов, должностей и наград. Кроме того, к вашим услугам раздел статистики, где собраны краткие служебные формуляры на всех действительных членов клуба с 2002 г. (за исключением <a href="#"><i>не-лиц</i></a> и членов клуба, подпадающих под действие Приказа Претора №14 от 12.XI.2003 и межведомственной инструкции от 16.XI.2003).</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <templ-footer></templ-footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
